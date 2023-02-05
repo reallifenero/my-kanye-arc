@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu with Marquee Hover | Codrops</title>
+    <meta
+      name="description"
+      content="A recreation of the marquee menu hover effect seen on the website of K72."
+    />
+    <meta
+      name="keywords"
+      content="marquee, css, animation, menu, hover, javascript, k72"
+    />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/dvc1xoh.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="module">
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+    <script
+      type="module"
+      src="//tympanus.net/codrops/adpacks/analytics.js"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Hello World</h1>
+      </div>
+      <nav>
+        <div class="c__menu">
+          <div class="c__menu__item">
+            <a href="" class="menu__item__link">ONE ITEM</a>
+            <div class="marquee">
+              <div class="marquee__inner-wrap">
+                <div class="marquee__inner">
+                  <span>omo</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/1.jpg)"
+                  ></div>
+                  <span>jare</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/12.jpg)"
+                  ></div>
+                  <span>joor</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/14.jpg)"
+                  ></div>
+                  <span>pele</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/15.jpg)"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c__menu__item">
+            <a href="" class="menu__item__link">TWO BITEMS</a>
+            <div class="marquee">
+              <div class="marquee__inner-wrap">
+                <div class="marquee__inner">
+                  <span>omo</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/1.jpg)"
+                  ></div>
+                  <span>jare</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/12.jpg)"
+                  ></div>
+                  <span>joor</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/14.jpg)"
+                  ></div>
+                  <span>pele</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/15.jpg)"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c__menu__item">
+            <a href="" class="menu__item__link">THREE TRITEMS</a>
+            <div class="marquee">
+              <div class="marquee__inner-wrap">
+                <div class="marquee__inner">
+                  <span>omo</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/1.jpg)"
+                  ></div>
+                  <span>jare</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/12.jpg)"
+                  ></div>
+                  <span>joor</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/14.jpg)"
+                  ></div>
+                  <span>pele</span>
+                  <div
+                    class="marquee__image"
+                    style="background-image: url(img/15.jpg)"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </main>
+  </body>
+</html>

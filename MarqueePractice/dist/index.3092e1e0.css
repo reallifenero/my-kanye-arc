@@ -1,0 +1,123 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 18px;
+}
+
+body {
+  --color-text: #111;
+  --color-bg: #f8c792;
+  --color-link: #000;
+  --color-link-hover: #000;
+  --color-border: #a7927b;
+  --marquee-bg: #000;
+  --marquee-text: #fff;
+  --menu-focus: #775e41;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  font-family: General-Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.c__menu {
+  width: 100vw;
+  height: calc(100vh - 13rem);
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.c__menu__item {
+  cursor: default;
+  text-align: center;
+  box-shadow: 0 -1px var(--color-border);
+  position: relative;
+  overflow: hidden;
+}
+
+.menu__item__link {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.menu__item-link:focus, .menu__item-link:focus-visible {
+  color: var(--menu-focus);
+}
+
+.menu__item-link:focus:not(:focus-visible) {
+  color: var(--color-link);
+}
+
+.marquee {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: var(--marquee-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transform: translate3d(0, 101%, 0);
+}
+
+.marquee__inner-wrap {
+  height: 100%;
+  width: 100%;
+  transform: translate3d(0, -101%, 0);
+}
+
+.marquee__inner {
+  height: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+  will-change: transform;
+  align-items: center;
+  animation: 15s linear infinite marquee;
+  display: flex;
+  position: relative;
+}
+
+@keyframes marquee {
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.menu__item__link, .marquee span {
+  white-space: nowrap;
+  text-transform: uppercase;
+  padding: 1vh 1vw 0;
+  font-size: 6vw;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.marquee span {
+  text-align: center;
+  color: var(--marquee-text);
+  font-weight: 400;
+}
+
+.marquee__image {
+  width: 15vw;
+  height: 70%;
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 5vw;
+  margin: 0 2vw;
+}
+
+/*# sourceMappingURL=index.3092e1e0.css.map */
