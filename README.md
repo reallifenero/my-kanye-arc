@@ -4,7 +4,7 @@
 
 A recreation of the marquee menu hover effect seen on the [website of K72](https://k72.ca/en) made by Locomotive.
 
-![Image Title](https://tympanus.net/codrops/wp-content/uploads/2021/06/Marquee_feat.jpg)
+![Image Title](https://pbs.twimg.com/media/CHAenmVUkAA3vG8.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=55133)
 
