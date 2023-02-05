@@ -1,8 +1,8 @@
-# My Kanye Arc
+# Marquee Menu Hover Animation
 
-### 5 Animated Components A day for 6 Months
+A recreation of the marquee menu hover effect seen on the [website of K72](https://k72.ca/en) made by Locomotive.
 
-![Image Title](https://pbs.twimg.com/media/CHAenmVUkAA3vG8.jpg)
+![Image Title](https://tympanus.net/codrops/wp-content/uploads/2021/06/Marquee_feat.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=55133)
 
