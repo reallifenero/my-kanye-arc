@@ -1,0 +1,27 @@
+// base
+
+@import "./styles/utils/variables";
+@import "./styles/utils/functions";
+@import "./styles/utils/mixins";
+@import "./styles/utils/vendors";
+@import "./styles/utils/responsive";
+
+// config
+@import "./styles/base/fonts.scss";
+@import "./styles/vars.scss";
+@import "./styles/reset.scss";
+@import "./styles/aspect-ratio.scss";
+@import "./styles/base/base.scss";
+@import "./styles/type.scss";
+@import "./styles/button.scss";
+
+// components
+
+@import "./styles/components/btn-slider-open.scss";
+@import "./styles/components/content.scss";
+@import "./styles/components/placeholders.scss";
+@import "./styles/components/slider.scss";
+
+// page
+
+@import "./styles/pages/container.scss";

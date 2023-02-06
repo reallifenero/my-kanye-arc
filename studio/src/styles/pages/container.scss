@@ -1,0 +1,8 @@
+nav {
+  @include flex(flex-end, center, row);
+  width: 100%;
+  position: absolute;
+  @include media("<phone") {
+    height: 5rem;
+  }
+}
