@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="https://use.typekit.net/gll7dfd.css" />
     <link rel="stylesheet" type="text/css" href="index.scss" />
+
     <script type="module">
       document.documentElement.className = "js";
       var supportsCssVars = function () {
@@ -38,6 +39,7 @@
           "Please view this demo in a modern browser that supports CSS Variables."
         );
     </script>
+
     <script
       type="module"
       src="//tympanus.net/codrops/adpacks/analytics.js"
@@ -98,9 +100,142 @@
         </button>
       </nav>
 
-      <div class="c_section">
-        <h1>Hello World</h1>
+      <!-- Content -->
+
+      <section class="content js-content">
+        <div class="container">
+          <div class="content__subheadings">
+            <span class="content__subheading is-md">S00192 /</span>
+            <span class="content__subheading is-sm"
+              >side / orange / 11:40 AM</span
+            >
+          </div>
+
+          <h2 class="content__heading">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled.
+          </h2>
+        </div>
+      </section>
+
+      <!-- Placeholders -->
+      <div class="placeholders js-placeholders">
+        <div
+          class="placeholders__img-wrap js-img-wrap"
+          style="--aspect-ratio: 0.8"
+        >
+          <img
+            src="https://assets.awwwards.com/assets/images/pages/awards-2020/social/home.jpg?v=1"
+            alt="annual-awwards-2020"
+            class="placeholders__img"
+          />
+        </div>
+        <div
+          class="placeholders__img-wrap js-img-wrap"
+          style="--aspect-ratio: 0.8"
+        >
+          <img
+            src="https://blog.tubikstudio.com/wp-content/uploads/2021/09/annual-awwwards-website-design-tubik-studio.png"
+            alt="annual-awwwards-website"
+            class="placeholders__img"
+          />
+        </div>
+        <div
+          class="placeholders__img-wrap js-img-wrap"
+          style="--aspect-ratio: 0.8"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80&ar=0.8"
+            class="placeholders__img"
+          />
+        </div>
       </div>
+
+      <!-- Slider -->
+      <div class="slider js-slider">
+        <button
+          class="slider__button-close js-slider-close"
+          type="button"
+          aria-label="close slider"
+        >
+          <svg
+            class="slider__button-close-icon js-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 205 205"
+          >
+            <g class="js-circle" fill="none" stroke="var(--color-grey-darker)">
+              <circle cx="102.5" cy="102.5" r="102" />
+            </g>
+            <g
+              class="js-x"
+              fill="none"
+              stroke="var(--color-grey-darker)"
+              stroke-linecap="round"
+            >
+              <path d="M94 94l16.139 16.139" />
+              <path d="M94 110.492l16.493-16.493" />
+            </g>
+          </svg>
+        </button>
+
+        <div class="slider__container js-container" data-scroll>
+          <div class="slider__item js-item" style="--aspect-ratio: 0.8">
+            <div
+              class="slider__item-img-wrap js-img-wrap js-img"
+              style="--aspect-ratio: 0.8"
+            >
+              <img
+                src="https://assets.awwwards.com/assets/images/pages/awards-2020/social/home.jpg?v=1"
+                alt="annual-awwards-2020"
+                class="slider__item-img"
+              />
+
+              <div class="slider__item-content">
+                <div class="slider__item-heading-wrap">
+                  <h3 class="slider__item-heading">Indigo</h3>
+                </div>
+
+                <div class="slider__item-button-wrap">
+                  <button class="button slider__item-button" type="button">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider__item js-item" style="--aspect-ratio: 0.8">
+            <div
+              class="slider__item-img-wrap js-img-wrap js-img"
+              style="--aspect-ratio: 0.8"
+            >
+              <img
+                src="https://blog.tubikstudio.com/wp-content/uploads/2021/09/annual-awwwards-website-design-tubik-studio.png"
+                alt="annual-awwards-2020"
+                class="slider__item-img"
+              />
+
+              <div class="slider__item-content">
+                <div class="slider__item-heading-wrap">
+                  <h3 class="slider__item-heading">Indigo</h3>
+                </div>
+
+                <div class="slider__item-button-wrap">
+                  <button class="button slider__item-button" type="button">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider__progress-wrap js-progress-wrap">
+        <div class="slider__progress js-progress"></div>
+      </div>
+      <!-- -->
     </main>
     <script type="module" src="js/index.js"></script>
   </body>

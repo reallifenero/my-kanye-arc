@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   --color-text: #111;
-  --color-bg: #a7927b;
+  --color-bg: #fff;
   --color-link: #000;
   --color-link-hover: #000;
   --color-border: #a7927b;
@@ -41,6 +41,10 @@ body {
   overscroll-behavior-y: none;
 }
 
+::selection {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
 .app {
   position: fixed;
   top: 0;

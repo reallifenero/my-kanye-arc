@@ -93,3 +93,27 @@
     }
   }
 }
+
+.slider__button-close {
+  position: fixed;
+  top: -11.11111vw;
+  left: calc(100vw - 43.056vw);
+  z-index: 1001;
+  display: none;
+  // position: fixed;
+  // top: var(--spacing-15);
+  // right: var(--spacing-15);
+  // z-index: 1001;
+
+  width: 56.944vw;
+  height: 56.944vw;
+
+  will-change: transform;
+}
+
+.slider__button-close-icon {
+  width: 56.944vw;
+  height: 56.944vw;
+
+  overflow: visible;
+}
